@@ -1,0 +1,92 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="txt_heading">20sp</dimen>
+    <dimen name="txt_paragraph">14sp</dimen>
+    <dimen name="txt_btn">16sp</dimen>
+    <dimen name="space5">5dp</dimen>
+    <dimen name="space10">10dp</dimen>
+    <dimen name="space20">20dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_20_dp">20dp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="toolbar_title_size">20sp</dimen>
+    <dimen name="no_data_image_size">54dp</dimen>
+    <dimen name="margin_15_dp">15dp</dimen>
+    <dimen name="root_padding">16dp</dimen>
+    <dimen name="fab_size">42dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="image_icon_size_14dp">14dp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_28sp">28sp</dimen>
+    <dimen name="margin_5_dp">5dp</dimen>
+    <dimen name="margin_2_dp">2dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="margin_3_dp">3dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_30_dp">30dp</dimen>
+    <dimen name="margin_40_dp">40dp</dimen>
+    <dimen name="dimen_140dp">140dp</dimen>
+    <dimen name="mbottom_bar_height">60dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="dp_250dp">250dp</dimen>
+    <dimen name="common_text_size_header">30sp</dimen>
+    <dimen name="text_size_25sp">25sp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="common_dimen_for_subtopic_alphabet">10dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="search_icon_height_and_width">20dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="common_topics_padding">3dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_33">33dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_190">190dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_315">315dp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+
+    <dimen name="stpi_default_text_size">12sp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+    <dimen name="dimen_170dp">170dp</dimen>
+</resources>

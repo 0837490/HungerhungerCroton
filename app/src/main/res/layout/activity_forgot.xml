@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.ForgotActivity">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/margin_40_dp"
+        android:layout_height="@dimen/margin_40_dp"
+        android:layout_marginLeft="@dimen/space10"
+        android:layout_marginTop="@dimen/space10"
+        android:src="@drawable/left" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_70"
+        android:layout_marginRight="@dimen/dp_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textforgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvforgotdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter your email to receive a link to create a new password vai email"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="normal"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40_dp"
+            android:layout_marginTop="@dimen/margin_40_dp"
+            android:background="@drawable/editshape"
+            android:hint="@string/email_or_phone"
+            android:paddingLeft="@dimen/space20"
+            android:paddingRight="@dimen/space20" />
+
+
+
+        <Button
+            android:id="@+id/btnForgot"
+            style="@style/ButtonBlue"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40_dp"
+            android:layout_marginTop="@dimen/space20"
+            android:text="@string/forgot_pass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/space20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already an account?"/>
+        <TextView
+            android:id="@+id/txSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Sign in"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</FrameLayout>

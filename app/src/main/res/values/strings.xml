@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">HungerCroton</string>
+    <string name="todo">todo</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="home">HOME</string>
+    <string name="cancel">CANCEL</string>
+    <string name="network_error">Network Error, Please Check Your Internet Connection</string>
+    <string name="offline_msg">No Internet Connection</string>
+    <string name="no_data">No Data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+    <string name="login">LOGIN</string>
+    <string name="proceed">PROCEED</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="logout">LOGOUT</string>
+    <string name="api_key">AIzaSyAH-kvKN1n8Neei0p__eXlY_Jm-f7ovUq8</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="enter_number">Enter 10 digit mobile number</string>
+    <string name="retry">Retry</string>
+
+    <string name="reimaging_text">Reimagine Your Research</string>
+    <string name="join_with_google">Join with Google</string>
+    <string name="join_with_orcid">Join with ORCID</string>
+    <string name="join_with_fb">Join with Facebook</string>
+    <string name="join_with_linkedln">Join with Linkedln</string>
+    <string name="join_now">Join Now</string>
+    <string name="lets_get_started">Let\'s Get Started</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="already_text">Already on Abbaqus ?</string>
+    <string name="agree_and_join"><![CDATA[Agree & Join]]></string>
+    <string name="engineering_and_physical_text">Engineering and Physical Science</string>
+    <string name="humanities_text">Humanities and Social Science</string>
+    <string name="life_science">Life Science</string>
+    <string name="health_science">Health Science</string>
+    <string name="next">Next</string>
+    <string name="upload_photo_text">Upload your papers in one click</string>
+    <string name="search_here">Search..</string>
+    <string name="back">Back</string>
+    <string name="personalized_text">Personalize my research</string>
+
+    <string name="selectsubtopc">Select subtopic of topics</string>
+    <string name="err_empty">This field should not be empty</string>
+    <string name="valid_fields">Enter valid fields</string>
+
+    <string name="recommend_user">Recommended users</string>
+    <string name="trending">Trending</string>
+    <string name="calendar">Calendar</string>
+    <string name="feed">Feed</string>
+    <string name="network">Network</string>
+    <string name="setting">SETTING</string>
+    <string name="welcome">Welcome,</string>
+    <string name="sign_in_continue">Sign in to continue</string>
+    <string name="username">Username</string>
+    <string name="sign_in_with">or sign in with</string>
+    <string name="signup">Sign up</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="Offer">OFFER</string>
+    <string name="location">LOCATION</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.OrderViewActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home_feed_topics_color"
+            android:orientation="horizontal"
+            android:padding="@dimen/space5"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_weight="0.6">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="@dimen/margin_40_dp"
+                    android:layout_height="@dimen/margin_40_dp"
+                    android:layout_marginLeft="@dimen/space10"
+                    android:src="@drawable/ic_user_circle" />
+
+                <TextView
+                    android:id="@+id/txridername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space10"
+                    android:layout_toRightOf="@+id/image"
+                    android:gravity="center"
+                    android:text="Angel James"
+                    android:textColor="@color/darkblack"
+                    android:textSize="@dimen/text_size_18sp" />
+
+                <TextView
+                    android:id="@+id/txpickuptiming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txridername"
+                    android:layout_marginLeft="@dimen/space10"
+                    android:layout_toRightOf="@+id/image"
+                    android:gravity="center"
+                    android:text="Today at 12:30 PM"
+                    android:textSize="@dimen/text_size_14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:padding="@dimen/space5">
+
+
+                <TextView
+                    android:id="@+id/txorderid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Order Id : #50454"
+                    android:textColor="@color/darkblack" />
+
+                <TextView
+                    android:id="@+id/txamout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txorderid"
+                    android:gravity="right"
+                    android:text="Total : $507"
+                    android:textColor="@color/darkblack" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/darkblack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/ivphone"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/space10"
+                android:layout_marginTop="@dimen/space5"
+                android:layout_weight="0.1"
+                android:src="@drawable/phoneno"/>
+            <TextView
+                android:id="@+id/txphone"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space5"
+               android:layout_weight="0.7"
+                android:gravity="center"
+                android:text="8845146970"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/call"
+               android:layout_width="0dp"
+               android:layout_height="@dimen/dp_25"
+               android:layout_marginTop="@dimen/margin_5_dp"
+               android:layout_marginRight="@dimen/space10"
+               android:layout_weight="0.2"
+               android:background="@drawable/layoutshape"
+               android:gravity="center"
+               android:text="Call"
+               android:textColor="@color/colorPrimary"
+               android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/space10"
+            android:background="@color/darkblack"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/ivemail"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/space10"
+                android:layout_marginTop="@dimen/space5"
+                android:layout_weight="0.1"
+                android:src="@drawable/email"/>
+            <TextView
+                android:id="@+id/txemail"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space5"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:text="demo@gmail.com"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/etmail"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_25"
+                android:layout_marginTop="@dimen/margin_5_dp"
+                android:layout_marginRight="@dimen/space10"
+                android:layout_weight="0.2"
+                android:background="@drawable/layoutshape"
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/space10"
+            android:background="@color/darkblack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/ivnavigate"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/space10"
+                android:layout_marginTop="@dimen/space5"
+                android:layout_weight="0.1"
+                android:src="@drawable/location"/>
+            <TextView
+                android:id="@+id/txnavigate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space5"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:text="B-2 phase 3 Near Rolta tower Gurgaon Postal Code 110015"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/etnavigate"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_25"
+                android:layout_marginTop="@dimen/margin_5_dp"
+                android:layout_marginRight="@dimen/space10"
+                android:layout_weight="0.2"
+                android:background="@drawable/layoutshape"
+                android:gravity="center"
+                android:text="Navigate"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/space10"
+            android:background="@color/darkblack"/>
+        <TextView
+            android:id="@+id/txmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space10"
+            android:layout_marginTop="@dimen/space10"
+            android:text="Message"
+            android:textColor="@color/darkblack"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space10"
+            android:layout_marginRight="@dimen/space10"
+            android:text=" Hi please pack green salid in my order"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space10"
+            android:background="@color/home_feed_topics_color"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <TextView
+                android:id="@+id/txitem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space5"
+                android:layout_weight="1.5"
+                android:padding="@dimen/space5"
+                android:text="Item"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txqty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="@dimen/space5"
+                android:text="Quantity"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txprice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:padding="@dimen/space5"
+                android:text="Price"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txprintinvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space10"
+                android:layout_marginTop="@dimen/space10"
+                android:background="@drawable/layoutshape"
+                android:padding="@dimen/space10"
+                android:text="Print Invoice"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space10"
+                android:layout_marginRight="@dimen/space10"
+                android:gravity="right"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txsubtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subtotal : $165.00"
+                    android:textColor="@color/darkblack"/>
+                <TextView
+                    android:id="@+id/txdeliveryfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Fee : $16.00"
+                    android:textColor="@color/darkblack"/>
+                <TextView
+                    android:id="@+id/txservicecharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Service Tex (18%): $20.00"
+                    android:textColor="@color/darkblack"/>
+                <TextView
+                    android:id="@+id/txdiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discount (18%): $20.00"
+                    android:textColor="@color/darkblack"/>
+
+                <TextView
+                    android:id="@+id/txtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total : $160.00"
+                    android:textColor="@color/darkblack"
+                    android:textSize="@dimen/text_size_18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/layoutshape"
+    android:gravity="center"
+    android:padding="@dimen/space10"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txstatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="Order Status"
+        android:textColor="@color/colorPrimary"/>
+    <Spinner
+        android:id="@+id/spinnerstatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/space10"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:text="Order Status"/>
+
+    <Button
+        android:id="@+id/btncancel"
+        style="@style/ButtonBlue"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/space10"
+        android:layout_weight="0.3"
+        android:text="Cancel"
+        android:textSize="@dimen/dp_14"/>
+
+
+</LinearLayout>
+
+</FrameLayout>

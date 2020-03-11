@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/txprice"
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_gravity="right|top"
+                    android:layout_marginTop="@dimen/space10"
+                    android:background="@mipmap/bookmark"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/space10"
+                    android:text="$260"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txproductname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space10"
+                android:paddingTop="@dimen/space10"
+                android:text="Daal Makhni"
+                android:textColor="@color/darkblack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txproductdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space10"
+                android:paddingRight="@dimen/space10"
+                android:text="2 Naal with butter , salad ,2 Sabji ,Rayta , Rise"
+                android:textColor="@color/darkblack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/space10"
+                android:background="@color/darkblack" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space10"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnedit"
+                    style="@style/Buttongreen"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_marginLeft="@dimen/space20"
+                    android:layout_marginRight="@dimen/space20"
+                    android:layout_weight="0.5"
+                    android:text="Edit Item"
+                    android:textSize="@dimen/text_size_12sp" />
+
+                <Button
+                    android:id="@+id/btndelete"
+                    style="@style/ButtonBlue"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_marginLeft="@dimen/space20"
+                    android:layout_marginRight="@dimen/space20"
+                    android:layout_weight="0.5"
+                    android:text="Delete Item"
+                    android:textSize="@dimen/text_size_12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

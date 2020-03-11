@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_feed_topics_color"
+    android:orientation="vertical"
+    tools:context=".activity.ProfileActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/home_feed_topics_color"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/space20">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivuserimage"
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="@dimen/dp_100"
+                    android:src="@drawable/ic_user_circle" />
+
+                <TextView
+                    android:id="@+id/txusername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space20"
+                    android:layout_marginTop="@dimen/space20"
+                    android:layout_toRightOf="@+id/ivuserimage"
+                    android:text="Sohan Sharma"
+                    android:textColor="@color/darkblack"
+                    android:textSize="@dimen/text_size_16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txusername"
+                    android:layout_marginLeft="@dimen/space20"
+                    android:layout_toRightOf="@+id/ivuserimage"
+                    android:text="sohansharma@gmail.com"
+                    android:textColor="@color/darkblack"
+                    android:textSize="@dimen/text_size_16sp" />
+
+                <TextView
+                    android:id="@+id/txphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txemail"
+                    android:layout_marginLeft="@dimen/space20"
+                    android:layout_toRightOf="@+id/ivuserimage"
+                    android:text="8441546970"
+                    android:textColor="@color/darkblack"
+                    android:textSize="@dimen/text_size_16sp" />
+            </RelativeLayout>
+
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recyclerview"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="@dimen/space10"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
