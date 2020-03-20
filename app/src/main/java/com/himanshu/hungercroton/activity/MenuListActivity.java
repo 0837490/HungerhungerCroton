@@ -51,8 +51,15 @@ public class MenuListActivity extends AppCompatActivity {
         swipeController = new SwipeController(new SwipeControllerActions() {
             @Override
             public void onRightClicked(int position) {
-
+                super.onRightClicked(position);
             }
+
+            @Override
+            public void onLeftClicked(int position) {
+                super.onLeftClicked(position);
+            }
+
+
         });
 
         ItemTouchHelper itemTouchhelper = new ItemTouchHelper(swipeController);
